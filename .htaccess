@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule (.*) - [L]
+
+RewriteRule ^([^/]*)/$ index.php?project=$1 [L]
+RewriteRule ^([^/]*)/([^/]*)/(index\.html)?$ page.php?project=$1&dataset=$2 [L]
+RewriteRule ^([^/]*)/([^/]*)/([^/]*)?$ page.php?project=$1&dataset=$2&version=$3 [L]
+</IfModule>

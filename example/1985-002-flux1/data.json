@@ -1,0 +1,51 @@
+ {
+	"published":"true",
+	"ticket-id":"27492",
+	"title":"Continuous Flux Capacitor Status Readings After Time Travel From 1985 To 1955 And Back",
+	"stable-identifier":"https://example.org/data/example/1985-002-flux1/",
+	"citation":"Brown, E. and McFly, M. (1986). Continuous Flux Capacitor Status Readings after Time Travel From 1985 to 1955. [Dataset]. Data Publisher: Example.org Research Data Storage",
+	"licenses":[{
+		"name":"Creative Commons Attribution (CC-BY) 4.0",
+		"link":"https://creativecommons.org/licenses/by/4.0/",
+		"details":""
+		}],
+	"details":"This dataset contains the continuous reading of the 8 different status parameters from a Flux Capacitor that was used to power a DeLorean based time machine from October 26, 1985 back to November 5, 1955. The time granularity for all parameters is one reading every 0.1 seconds for the duration of the travel. After arriving in 1955 the Flux Capacitor was in low power mode, taking a reading every hour until the return to 1985 7 days later.",
+	"related-datasets":[{
+		"link":"https://example.org/data/example/2015-018-flux2/",
+		"name":"Continuous Flux Capacitor Status Readings After Time Travel From 2015 To 1985 And Back"
+		}],
+	"related-publications":[{
+		"link":"https://doi.org/10.00000/1234.5678",
+		"name":"Brown, E. and McFly, M. (1986). Bidirectional Time Travel Using A Non-Stationary Time Machine Powered By A Flux Capacitor. Journal Of Time Traveling. p 183-211. https://doi.org/10.00000/1234.5678"
+		},{
+		"link":"https://doi.org/10.00000/8765.4321",
+		"name":"Brown, E.; Aaron, A.; Abe, A.; Sanchez, R.; Hawking, S. & Farnsworth, H.J. (2016). Timing Inventory Measurement Expressions (TIME): A Standardized Data Format For Time Travel Monitoring And Control Parameters. Data Formats and Standards Platform. https://doi.org/10.00000/8765.4321",
+		"details":"This publication is only relevant to the TIME-Format variant of Version 2."
+		}],
+	"keywords":[
+		"Time Travel",
+		"Flux Capacitor",
+		"Quantum Flow"
+		],
+	"creators":[{
+		"name":"Dr. Emmett L. Brown",
+		"orcid":"0284-2625-1667-0158"
+		}],
+	"contributors":[{
+		"name":"Martin Seamus McFly",
+		"orcid":""
+		}],
+	"technical-contact":"Example.org Research Data Storage",
+	"technical-contact-email":"",
+	"technical-contact-link":"https://example.org/contact",
+	"last-updated":"2016-05-25",
+	"created":"1986-02-28",
+	"record-basis":"Automated Data Recording",
+	"download-link":"https://example.org/data/example/1985-002-flux1/readings.flxcap",
+	"format":"FluxCapacitor Data Format",
+	"versions":[
+		{"id":"1","name":"Version 1","date":"1986-02-28","comment":"(original data)","format":"","download-link":"https://example.org/data/example/1985-002-flux1/readings.flxcap","stable-identifier":"https://doi.org/10.00000/1234.5679/1"},	
+		{"id":"2","name":"Version 2","date":"1987-08-21","comment":"On the way back to 1985 a lightning strike cause some of the readings in the original dataset to be corrupted. This has now been fixed, partially be removing corrupt readings, partially be restoring them based on additinal telemetry data.","format":"","download-link":"https://example.org/data/example/1985-002-flux1/readings2.flxcap","stable-identifier":"https://doi.org/10.00000/1234.5679/2"},	
+		{"id":"2-time","name":"Version 2 (TIME)","date":"1987-08-21","comment":"this is the same data as in version 2, only this time in the newly established TIME (Timing Inventory Measurement Expressions) format.","format":"TIME","download-link":"https://example.org/data/example/1985-002-flux1/readings2.time","stable-identifier":"https://doi.org/10.00000/1234.5679/2-time"}
+		]
+}

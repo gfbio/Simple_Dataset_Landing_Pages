@@ -1,0 +1,1 @@
+The icons in this directory were downloaded from https://creativecommons.org/about/downloads/ and are subject to trademark protection. For further details see https://creativecommons.org/policies . 

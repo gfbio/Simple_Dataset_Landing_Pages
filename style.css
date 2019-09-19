@@ -1,0 +1,141 @@
+body{
+	width:95%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a:link , a:visited, a:hover, a:active {
+    color: #335AA3;
+}
+
+#header{
+	text-align:center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+}
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
+}
+
+#content{
+	width:100%;
+}
+
+h2{
+	margin-bottom:5px;
+}
+
+.dataset-info{
+	display:block;
+}
+
+.main-section{
+	border-bottom: 2px solid #335AA3;
+	padding-bottom: 20px;
+	width:100%;
+}
+
+.large, #license{
+	padding-left:40px;
+}
+
+.large, .dataset-name{
+	font-size:20px;
+}
+
+li {
+    padding-top: 10px;
+    list-style: none;
+}
+
+.dataset-name{
+	color:#335AA3;
+	background-color:#3CACE4;
+}
+
+#details-left{
+	float:left;
+	width:45%;
+	padding-right:20px;
+	padding-left:40px
+}
+
+.table-heading{
+	font-weight:bold;
+	padding-right:10px;
+}
+
+
+.button {
+	text-decoration: none;
+	display:inline-block;
+	margin-top:20px;
+	font-size:20px;
+	padding:4px 10px;
+	border: 2px solid #3658A1;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.download-link.button small {
+    font-size: 70%;
+    text-transform: capitalize;
+}
+
+.doi-link{
+	background-image: url("materials/doi.png");
+    background-repeat: no-repeat;
+    padding-left: 23px;
+    background-size: 20px;
+}
+.cc-icon{
+	width:80px;
+	margin-right:5px;
+	position: relative;
+	top: 6px;
+}
+
+.indent{
+	margin-left:50px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+div.version-warning{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 70%;
+	width: max-content;
+	background-color: #ffe4a1;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+#version-table{
+	margin-left:40px;
+	border-spacing: 0px;
+	border-collapse: separate;
+}
+#version-table .icon{
+	width:20px;
+	margin-right:5px;
+}
+#version-table th{
+	text-align: left;
+}
+
+#version-table .selected-version{
+	background-color:#cceeff;
+}
+
+#version-table td, #version-table th{
+	padding: 1px 15px 1px 1px;
+	max-width: 300px;
+	vertical-align: top;
+}
+
+#footer{
+	padding:10px;
+}
